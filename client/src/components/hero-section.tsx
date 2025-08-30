@@ -35,34 +35,71 @@ export default function HeroSection() {
             <h1 className="font-display text-5xl md:text-7xl font-bold text-foreground relative z-10">
               Noor Fatima
             </h1>
-            {/* Decorative flowers around the name */}
-            <div className="absolute -top-4 -left-8 text-3xl animate-float" style={{ animationDelay: '0s' }}>🌸</div>
-            <div className="absolute -top-6 -right-4 text-2xl animate-float" style={{ animationDelay: '1s' }}>🌺</div>
-            <div className="absolute -bottom-10 -left-6 text-2xl animate-float" style={{ animationDelay: '2s' }}>🌼</div>
-            <div className="absolute -bottom-12 -right-8 text-3xl animate-float" style={{ animationDelay: '1.5s' }}>🌷</div>
             
-            {/* Ronaldo border around the name */}
-            {Array.from({ length: 12 }, (_, i) => {
-              const angle = (i * 30) * (Math.PI / 180); // 12 images, 30 degrees apart
-              const radius = 200; // Distance from center
-              const x = Math.cos(angle) * radius;
-              const y = Math.sin(angle) * radius;
-              
-              return (
-                <img
-                  key={i}
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
-                  alt="Ronaldo"
-                  className="absolute w-8 h-8 rounded-full animate-float opacity-60"
-                  style={{
-                    left: `calc(50% + ${x}px)`,
-                    top: `calc(50% + ${y}px)`,
-                    transform: 'translate(-50%, -50%)',
-                    animationDelay: `${i * 0.2}s`
-                  }}
-                />
-              );
-            })}
+            {/* Ronaldo square border around the name */}
+            {/* Top row */}
+            {Array.from({ length: 4 }, (_, i) => (
+              <img
+                key={`top-${i}`}
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
+                alt="Ronaldo"
+                className="absolute w-8 h-8 animate-float opacity-70"
+                style={{
+                  left: `calc(50% + ${(i - 1.5) * 80}px)`,
+                  top: 'calc(50% - 120px)',
+                  transform: 'translate(-50%, -50%)',
+                  animationDelay: `${i * 0.3}s`
+                }}
+              />
+            ))}
+            
+            {/* Bottom row */}
+            {Array.from({ length: 4 }, (_, i) => (
+              <img
+                key={`bottom-${i}`}
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
+                alt="Ronaldo"
+                className="absolute w-8 h-8 animate-float opacity-70"
+                style={{
+                  left: `calc(50% + ${(i - 1.5) * 80}px)`,
+                  top: 'calc(50% + 120px)',
+                  transform: 'translate(-50%, -50%)',
+                  animationDelay: `${(i + 4) * 0.3}s`
+                }}
+              />
+            ))}
+            
+            {/* Left side */}
+            {Array.from({ length: 3 }, (_, i) => (
+              <img
+                key={`left-${i}`}
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
+                alt="Ronaldo"
+                className="absolute w-8 h-8 animate-float opacity-70"
+                style={{
+                  left: 'calc(50% - 200px)',
+                  top: `calc(50% + ${(i - 1) * 60}px)`,
+                  transform: 'translate(-50%, -50%)',
+                  animationDelay: `${(i + 8) * 0.3}s`
+                }}
+              />
+            ))}
+            
+            {/* Right side */}
+            {Array.from({ length: 3 }, (_, i) => (
+              <img
+                key={`right-${i}`}
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
+                alt="Ronaldo"
+                className="absolute w-8 h-8 animate-float opacity-70"
+                style={{
+                  left: 'calc(50% + 200px)',
+                  top: `calc(50% + ${(i - 1) * 60}px)`,
+                  transform: 'translate(-50%, -50%)',
+                  animationDelay: `${(i + 11) * 0.3}s`
+                }}
+              />
+            ))}
           </div>
           <div className="flex justify-center mt-16">
             <Button
