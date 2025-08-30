@@ -35,21 +35,7 @@ export default function Navigation() {
               className="text-muted-foreground hover:text-primary transition-colors"
               data-testid="nav-qualities"
             >
-              Qualities
-            </button>
-            <button
-              onClick={() => scrollToSection("about")}
-              className="text-muted-foreground hover:text-primary transition-colors"
-              data-testid="nav-about"
-            >
-              About
-            </button>
-            <button
-              onClick={() => scrollToSection("messages")}
-              className="text-muted-foreground hover:text-primary transition-colors"
-              data-testid="nav-messages"
-            >
-              Messages
+              Gen1
             </button>
           </div>
           
@@ -81,21 +67,7 @@ export default function Navigation() {
                 className="block px-3 py-2 text-muted-foreground hover:text-primary transition-colors w-full text-left"
                 data-testid="mobile-nav-qualities"
               >
-                Qualities
-              </button>
-              <button
-                onClick={() => scrollToSection("about")}
-                className="block px-3 py-2 text-muted-foreground hover:text-primary transition-colors w-full text-left"
-                data-testid="mobile-nav-about"
-              >
-                About
-              </button>
-              <button
-                onClick={() => scrollToSection("messages")}
-                className="block px-3 py-2 text-muted-foreground hover:text-primary transition-colors w-full text-left"
-                data-testid="mobile-nav-messages"
-              >
-                Messages
+                Gen1
               </button>
             </div>
           </div>

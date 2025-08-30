@@ -49,24 +49,6 @@ const qualities: Quality[] = [
     detailDescription: "Her strength and determination are truly admirable. Noor Fatima faces challenges with grace and perseverance, inspiring others with her resilient spirit and positive attitude.",
     icon: Mountain,
     color: "accent"
-  },
-  {
-    id: "humor",
-    title: "Amazing Sense of Humor",
-    description: "Brings joy and laughter wherever she goes",
-    detailTitle: "Wonderful Sense of Humor",
-    detailDescription: "Her laughter is infectious and her sense of humor brings joy to everyone around her. Noor Fatima has this amazing gift of finding lightness and fun in any situation.",
-    icon: Smile,
-    color: "primary"
-  },
-  {
-    id: "creativity",
-    title: "Creative Spirit",
-    description: "Her creativity knows no bounds",
-    detailTitle: "Creative and Imaginative",
-    detailDescription: "Her creative spirit and imagination are truly inspiring. Noor Fatima approaches life with such creativity and originality, making everything she touches more beautiful and meaningful.",
-    icon: Palette,
-    color: "accent"
   }
 ];
 

@@ -26,29 +26,28 @@ export default function HeroSection() {
       
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <div className="animate-fade-in">
-          <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 gradient-text">
-            Noor Fatima
-          </h1>
+          <div className="relative mb-6">
+            <h1 className="font-display text-5xl md:text-7xl font-bold gradient-text relative z-10">
+              Noor Fatima
+            </h1>
+            {/* Decorative flowers around the name */}
+            <div className="absolute -top-4 -left-8 text-3xl animate-float" style={{ animationDelay: '0s' }}>🌸</div>
+            <div className="absolute -top-6 -right-4 text-2xl animate-float" style={{ animationDelay: '1s' }}>🌺</div>
+            <div className="absolute -bottom-2 -left-6 text-2xl animate-float" style={{ animationDelay: '2s' }}>🌼</div>
+            <div className="absolute -bottom-4 -right-8 text-3xl animate-float" style={{ animationDelay: '1.5s' }}>🌷</div>
+            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-8 text-xl animate-float" style={{ animationDelay: '0.5s' }}>🌹</div>
+          </div>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-light max-w-2xl mx-auto">
             A celebration of an amazing human being whose kindness and beauty inspire everyone around her
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button
               onClick={scrollToQualities}
               className="quality-button bg-primary text-primary-foreground px-8 py-4 rounded-lg font-medium hover:bg-primary/90"
-              data-testid="button-discover-qualities"
+              data-testid="button-gen1"
             >
               <Heart className="w-4 h-4 mr-2" />
-              Discover Her Qualities
-            </Button>
-            <Button
-              onClick={scrollToMessages}
-              variant="outline"
-              className="quality-button bg-accent text-accent-foreground px-8 py-4 rounded-lg font-medium hover:bg-accent/90"
-              data-testid="button-read-messages"
-            >
-              <MessageCircle className="w-4 h-4 mr-2" />
-              Read Messages
+              Gen1
             </Button>
           </div>
         </div>
