@@ -1,6 +1,7 @@
 import Navigation from "@/components/navigation";
 import HeroSection from "@/components/hero-section";
 import QualitiesSection from "@/components/qualities-section";
+import BirthdaySection from "@/components/birthday-section";
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Navigation />
       <HeroSection />
       <QualitiesSection />
+      <BirthdaySection />
       <Footer />
     </div>
   );

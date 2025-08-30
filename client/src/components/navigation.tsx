@@ -37,6 +37,13 @@ export default function Navigation() {
             >
               Gen1
             </button>
+            <button
+              onClick={() => scrollToSection("birthday")}
+              className="text-muted-foreground hover:text-primary transition-colors"
+              data-testid="nav-birthday"
+            >
+              Birthday
+            </button>
           </div>
           
           {/* Mobile Menu Button */}
@@ -68,6 +75,13 @@ export default function Navigation() {
                 data-testid="mobile-nav-qualities"
               >
                 Gen1
+              </button>
+              <button
+                onClick={() => scrollToSection("birthday")}
+                className="block px-3 py-2 text-muted-foreground hover:text-primary transition-colors w-full text-left"
+                data-testid="mobile-nav-birthday"
+              >
+                Birthday
               </button>
             </div>
           </div>
