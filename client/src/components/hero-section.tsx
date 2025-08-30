@@ -38,8 +38,31 @@ export default function HeroSection() {
             {/* Decorative flowers around the name */}
             <div className="absolute -top-4 -left-8 text-3xl animate-float" style={{ animationDelay: '0s' }}>🌸</div>
             <div className="absolute -top-6 -right-4 text-2xl animate-float" style={{ animationDelay: '1s' }}>🌺</div>
-            <div className="absolute -bottom-6 -left-6 text-2xl animate-float" style={{ animationDelay: '2s' }}>🌼</div>
-            <div className="absolute -bottom-8 -right-8 text-3xl animate-float" style={{ animationDelay: '1.5s' }}>🌷</div>
+            <div className="absolute -bottom-10 -left-6 text-2xl animate-float" style={{ animationDelay: '2s' }}>🌼</div>
+            <div className="absolute -bottom-12 -right-8 text-3xl animate-float" style={{ animationDelay: '1.5s' }}>🌷</div>
+            
+            {/* Ronaldo border around the name */}
+            {Array.from({ length: 12 }, (_, i) => {
+              const angle = (i * 30) * (Math.PI / 180); // 12 images, 30 degrees apart
+              const radius = 200; // Distance from center
+              const x = Math.cos(angle) * radius;
+              const y = Math.sin(angle) * radius;
+              
+              return (
+                <img
+                  key={i}
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
+                  alt="Ronaldo"
+                  className="absolute w-8 h-8 rounded-full animate-float opacity-60"
+                  style={{
+                    left: `calc(50% + ${x}px)`,
+                    top: `calc(50% + ${y}px)`,
+                    transform: 'translate(-50%, -50%)',
+                    animationDelay: `${i * 0.2}s`
+                  }}
+                />
+              );
+            })}
           </div>
           <div className="flex justify-center mt-16">
             <Button
