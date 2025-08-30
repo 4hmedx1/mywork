@@ -43,7 +43,7 @@ export default function HeroSection() {
                 key={`top-${i}`}
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
                 alt="Ronaldo"
-                className="absolute w-8 h-8 animate-float opacity-70"
+                className="absolute w-8 h-8 animate-float opacity-70 object-cover"
                 style={{
                   left: `calc(50% + ${(i - 1.5) * 80}px)`,
                   top: 'calc(50% - 120px)',
@@ -59,7 +59,7 @@ export default function HeroSection() {
                 key={`bottom-${i}`}
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
                 alt="Ronaldo"
-                className="absolute w-8 h-8 animate-float opacity-70"
+                className="absolute w-8 h-8 animate-float opacity-70 object-cover"
                 style={{
                   left: `calc(50% + ${(i - 1.5) * 80}px)`,
                   top: 'calc(50% + 120px)',
@@ -75,7 +75,7 @@ export default function HeroSection() {
                 key={`left-${i}`}
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
                 alt="Ronaldo"
-                className="absolute w-8 h-8 animate-float opacity-70"
+                className="absolute w-8 h-8 animate-float opacity-70 object-cover"
                 style={{
                   left: 'calc(50% - 200px)',
                   top: `calc(50% + ${(i - 1) * 60}px)`,
@@ -91,7 +91,7 @@ export default function HeroSection() {
                 key={`right-${i}`}
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
                 alt="Ronaldo"
-                className="absolute w-8 h-8 animate-float opacity-70"
+                className="absolute w-8 h-8 animate-float opacity-70 object-cover"
                 style={{
                   left: 'calc(50% + 200px)',
                   top: `calc(50% + ${(i - 1) * 60}px)`,
