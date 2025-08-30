@@ -31,15 +31,15 @@ export default function HeroSection() {
       
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <div className="animate-fade-in">
-          <div className="relative mb-6">
+          <div className="relative mb-2">
             <h1 className="font-display text-5xl md:text-7xl font-bold text-foreground relative z-10">
               Noor Fatima
             </h1>
             {/* Decorative flowers around the name */}
             <div className="absolute -top-4 -left-8 text-3xl animate-float" style={{ animationDelay: '0s' }}>🌸</div>
             <div className="absolute -top-6 -right-4 text-2xl animate-float" style={{ animationDelay: '1s' }}>🌺</div>
-            <div className="absolute -bottom-2 -left-6 text-2xl animate-float" style={{ animationDelay: '2s' }}>🌼</div>
-            <div className="absolute -bottom-4 -right-8 text-3xl animate-float" style={{ animationDelay: '1.5s' }}>🌷</div>
+            <div className="absolute -bottom-4 -left-6 text-2xl animate-float" style={{ animationDelay: '2s' }}>🌼</div>
+            <div className="absolute -bottom-6 -right-8 text-3xl animate-float" style={{ animationDelay: '1.5s' }}>🌷</div>
           </div>
           <div className="flex justify-center">
             <Button
