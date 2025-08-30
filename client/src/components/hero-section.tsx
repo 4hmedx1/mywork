@@ -27,7 +27,7 @@ export default function HeroSection() {
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <div className="animate-fade-in">
           <div className="relative mb-6">
-            <h1 className="font-display text-5xl md:text-7xl font-bold gradient-text relative z-10">
+            <h1 className="font-display text-5xl md:text-7xl font-bold text-foreground relative z-10">
               Noor Fatima
             </h1>
             {/* Decorative flowers around the name */}
