@@ -20,8 +20,13 @@ export default function HeroSection() {
     <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4 relative overflow-hidden">
       {/* Beautiful soothing background */}
       <div className="absolute inset-0 z-0">
-        <div className="w-full h-full bg-gradient-to-br from-rose-100 via-pink-50 to-purple-100 opacity-80" />
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518709414026-8e2aeeeb13bb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080')] bg-cover bg-center opacity-30" />
+        <div className="w-full h-full bg-gradient-to-br from-rose-200 via-pink-100 to-purple-200" />
+        <div className="absolute inset-0 bg-gradient-to-t from-purple-300/20 via-pink-200/30 to-rose-300/20" />
+        <div className="absolute inset-0" style={{
+          backgroundImage: `radial-gradient(circle at 20% 50%, rgba(255, 182, 193, 0.3) 0%, transparent 50%),
+                           radial-gradient(circle at 80% 20%, rgba(216, 191, 216, 0.3) 0%, transparent 50%),
+                           radial-gradient(circle at 40% 80%, rgba(255, 218, 185, 0.2) 0%, transparent 50%)`
+        }} />
       </div>
       
       <div className="max-w-4xl mx-auto text-center relative z-10">
