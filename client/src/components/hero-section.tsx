@@ -38,68 +38,26 @@ export default function HeroSection() {
             
             {/* Ronaldo square border around the name */}
             {/* Top row */}
-            {Array.from({ length: 4 }, (_, i) => (
-              <img
-                key={`top-${i}`}
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
-                alt="Ronaldo"
-                className="absolute w-8 h-8 animate-float opacity-70 object-cover"
-                style={{
-                  left: `calc(50% + ${(i - 1.5) * 80}px)`,
-                  top: 'calc(50% - 120px)',
-                  transform: 'translate(-50%, -50%)',
-                  animationDelay: `${i * 0.3}s`
-                }}
-              />
-            ))}
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% - 120px)', top: 'calc(50% - 80px)', transform: 'translate(-50%, -50%)', animationDelay: '0s' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% - 40px)', top: 'calc(50% - 80px)', transform: 'translate(-50%, -50%)', animationDelay: '0.3s' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% + 40px)', top: 'calc(50% - 80px)', transform: 'translate(-50%, -50%)', animationDelay: '0.6s' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% + 120px)', top: 'calc(50% - 80px)', transform: 'translate(-50%, -50%)', animationDelay: '0.9s' }} />
             
             {/* Bottom row */}
-            {Array.from({ length: 4 }, (_, i) => (
-              <img
-                key={`bottom-${i}`}
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
-                alt="Ronaldo"
-                className="absolute w-8 h-8 animate-float opacity-70 object-cover"
-                style={{
-                  left: `calc(50% + ${(i - 1.5) * 80}px)`,
-                  top: 'calc(50% + 120px)',
-                  transform: 'translate(-50%, -50%)',
-                  animationDelay: `${(i + 4) * 0.3}s`
-                }}
-              />
-            ))}
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% - 120px)', top: 'calc(50% + 80px)', transform: 'translate(-50%, -50%)', animationDelay: '1.2s' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% - 40px)', top: 'calc(50% + 80px)', transform: 'translate(-50%, -50%)', animationDelay: '1.5s' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% + 40px)', top: 'calc(50% + 80px)', transform: 'translate(-50%, -50%)', animationDelay: '1.8s' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% + 120px)', top: 'calc(50% + 80px)', transform: 'translate(-50%, -50%)', animationDelay: '2.1s' }} />
             
             {/* Left side */}
-            {Array.from({ length: 3 }, (_, i) => (
-              <img
-                key={`left-${i}`}
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
-                alt="Ronaldo"
-                className="absolute w-8 h-8 animate-float opacity-70 object-cover"
-                style={{
-                  left: 'calc(50% - 200px)',
-                  top: `calc(50% + ${(i - 1) * 60}px)`,
-                  transform: 'translate(-50%, -50%)',
-                  animationDelay: `${(i + 8) * 0.3}s`
-                }}
-              />
-            ))}
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% - 120px)', top: 'calc(50% - 40px)', transform: 'translate(-50%, -50%)', animationDelay: '2.4s' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% - 120px)', top: 'calc(50%)', transform: 'translate(-50%, -50%)', animationDelay: '2.7s' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% - 120px)', top: 'calc(50% + 40px)', transform: 'translate(-50%, -50%)', animationDelay: '3.0s' }} />
             
             {/* Right side */}
-            {Array.from({ length: 3 }, (_, i) => (
-              <img
-                key={`right-${i}`}
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg"
-                alt="Ronaldo"
-                className="absolute w-8 h-8 animate-float opacity-70 object-cover"
-                style={{
-                  left: 'calc(50% + 200px)',
-                  top: `calc(50% + ${(i - 1) * 60}px)`,
-                  transform: 'translate(-50%, -50%)',
-                  animationDelay: `${(i + 11) * 0.3}s`
-                }}
-              />
-            ))}
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% + 120px)', top: 'calc(50% - 40px)', transform: 'translate(-50%, -50%)', animationDelay: '3.3s' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% + 120px)', top: 'calc(50%)', transform: 'translate(-50%, -50%)', animationDelay: '3.6s' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/100px-Cristiano_Ronaldo_2018.jpg" alt="Ronaldo" className="absolute w-8 h-8 animate-float opacity-70 object-cover" style={{ left: 'calc(50% + 120px)', top: 'calc(50% + 40px)', transform: 'translate(-50%, -50%)', animationDelay: '3.9s' }} />
           </div>
           <div className="flex justify-center mt-16">
             <Button
