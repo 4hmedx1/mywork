@@ -14,39 +14,31 @@ interface Quality {
 }
 
 const qualities: Quality[] = [
-  {
-    id: "kindness",
-    title: "Incredibly Kind",
-    description: "Her compassion touches everyone she meets",
-    detailTitle: "Incredibly Kind Heart",
-    detailDescription: "Noor Fatima's kindness is truly remarkable. She has this amazing ability to show compassion and understanding in every interaction. Her kind heart makes her one of the most beautiful people anyone could know.",
-    icon: Heart,
-    color: "primary"
-  },
+  
   {
     id: "intelligence",
     title: "Brilliant Mind",
-    description: "Her intelligence and wisdom inspire others",
+    description: "gen1 mind hai",
     detailTitle: "Brilliant and Wise",
-    detailDescription: "Her intelligence shines in everything she does. Noor Fatima has this wonderful way of understanding complex situations and offering thoughtful perspectives that inspire those around her.",
+    detailDescription: "gen1 mind hai.",
     icon: Brain,
     color: "accent"
   },
   {
     id: "beauty",
     title: "Beautiful Soul",
-    description: "Inner and outer beauty that radiates joy",
+    description: "gen1 soul hai",
     detailTitle: "Beautiful Inside and Out",
-    detailDescription: "Noor Fatima possesses a rare combination of inner and outer beauty. Her genuine smile and radiant personality make her absolutely stunning. She's proof that true beauty comes from within.",
+    detailDescription: "sab kuch gen1",
     icon: Star,
     color: "primary"
   },
   {
     id: "strength",
     title: "Strong Spirit",
-    description: "Resilient and determined in all she does",
+    description: "gen1 spirit hai",
     detailTitle: "Strong and Resilient",
-    detailDescription: "Her strength and determination are truly admirable. Noor Fatima faces challenges with grace and perseverance, inspiring others with her resilient spirit and positive attitude.",
+    detailDescription: "ronaldo is the GOAT",
     icon: Mountain,
     color: "accent"
   }
@@ -68,10 +60,10 @@ export default function QualitiesSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            What Makes Her Special
+            
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Click on each quality to see why Noor Fatima is such an incredible person
+            
           </p>
         </div>
         
