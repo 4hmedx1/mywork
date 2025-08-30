@@ -38,8 +38,8 @@ export default function HeroSection() {
             {/* Decorative flowers around the name */}
             <div className="absolute -top-4 -left-8 text-3xl animate-float" style={{ animationDelay: '0s' }}>🌸</div>
             <div className="absolute -top-6 -right-4 text-2xl animate-float" style={{ animationDelay: '1s' }}>🌺</div>
-            <div className="absolute -bottom-4 -left-6 text-2xl animate-float" style={{ animationDelay: '2s' }}>🌼</div>
-            <div className="absolute -bottom-6 -right-8 text-3xl animate-float" style={{ animationDelay: '1.5s' }}>🌷</div>
+            <div className="absolute -bottom-6 -left-6 text-2xl animate-float" style={{ animationDelay: '2s' }}>🌼</div>
+            <div className="absolute -bottom-8 -right-8 text-3xl animate-float" style={{ animationDelay: '1.5s' }}>🌷</div>
           </div>
           <div className="flex justify-center mt-16">
             <Button
