@@ -18,11 +18,10 @@ export default function HeroSection() {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4 relative overflow-hidden">
-      {/* Oreo and Ronaldo background */}
+      {/* Beautiful background */}
       <div className="absolute inset-0 z-0">
-        <div className="w-full h-full bg-gradient-to-br from-primary/5 via-secondary/10 to-accent/5 opacity-50" />
-        <div className="absolute inset-0 bg-[url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Oreo-Two-Cookies.jpg/1200px-Oreo-Two-Cookies.jpg')] bg-cover bg-center opacity-15" />
-        <div className="absolute inset-0 bg-[url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/800px-Cristiano_Ronaldo_2018.jpg')] bg-cover bg-center opacity-10 mix-blend-multiply" />
+        <div className="w-full h-full bg-gradient-to-br from-pink-100 via-purple-50 to-blue-100 opacity-70" />
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080')] bg-cover bg-center opacity-20" />
       </div>
       
       <div className="max-w-4xl mx-auto text-center relative z-10">
