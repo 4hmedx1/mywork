@@ -36,16 +36,12 @@ export default function HeroSection() {
             <div className="absolute -bottom-2 -left-6 text-2xl animate-float" style={{ animationDelay: '2s' }}>🌼</div>
             <div className="absolute -bottom-4 -right-8 text-3xl animate-float" style={{ animationDelay: '1.5s' }}>🌷</div>
           </div>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-light max-w-2xl mx-auto">
-            A celebration of an amazing human being whose kindness and beauty inspire everyone around her
-          </p>
           <div className="flex justify-center">
             <Button
               onClick={scrollToQualities}
               className="quality-button bg-primary text-primary-foreground px-8 py-4 rounded-lg font-medium hover:bg-primary/90"
               data-testid="button-gen1"
             >
-              <Heart className="w-4 h-4 mr-2" />
               Gen1
             </Button>
           </div>
